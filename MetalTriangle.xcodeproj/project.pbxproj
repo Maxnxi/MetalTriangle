@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B73A1CC02B2426EA0003267F /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73A1CBF2B2426EA0003267F /* ContentView2.swift */; };
 		B7D24D602B1192F7004C1E6D /* MetalTriangleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D24D5F2B1192F7004C1E6D /* MetalTriangleApp.swift */; };
 		B7D24D622B1192F7004C1E6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D24D612B1192F7004C1E6D /* ContentView.swift */; };
 		B7D24D642B1192F9004C1E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D24D632B1192F9004C1E6D /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B73A1CBF2B2426EA0003267F /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		B7D24D5C2B1192F7004C1E6D /* MetalTriangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalTriangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D24D5F2B1192F7004C1E6D /* MetalTriangleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalTriangleApp.swift; sourceTree = "<group>"; };
 		B7D24D612B1192F7004C1E6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B73A1CBE2B2426D80003267F /* 2.Transformations */ = {
+			isa = PBXGroup;
+			children = (
+				B73A1CBF2B2426EA0003267F /* ContentView2.swift */,
+			);
+			path = 2.Transformations;
+			sourceTree = "<group>";
+		};
 		B7D24D532B1192F7004C1E6D = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 		B7D24D6F2B119E43004C1E6D /* ContentViews */ = {
 			isa = PBXGroup;
 			children = (
+				B73A1CBE2B2426D80003267F /* 2.Transformations */,
 				B7D24D702B119E51004C1E6D /* 1.Triangle */,
 			);
 			path = ContentViews;
@@ -165,6 +176,7 @@
 				B7D24D752B11A580004C1E6D /* definitions.h in Sources */,
 				B7D24D732B11A019004C1E6D /* Shaders.metal in Sources */,
 				B7D24D622B1192F7004C1E6D /* ContentView.swift in Sources */,
+				B73A1CC02B2426EA0003267F /* ContentView2.swift in Sources */,
 				B7D24D6E2B1197AC004C1E6D /* Renderer.swift in Sources */,
 				B7D24D602B1192F7004C1E6D /* MetalTriangleApp.swift in Sources */,
 			);
